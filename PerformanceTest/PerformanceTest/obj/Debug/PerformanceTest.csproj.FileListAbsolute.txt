@@ -1,0 +1,17 @@
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\PerformanceTest.exe.config
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\PerformanceTest.exe
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\PerformanceTest.pdb
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\ArrayBased.dll
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\DynamicArray.dll
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\IBuffer.dll
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\LinkedList.dll
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\ArrayBased.pdb
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\DynamicArray.pdb
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\IBuffer.pdb
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\bin\Debug\LinkedList.pdb
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\obj\Debug\PerformanceTest.csprojResolveAssemblyReference.cache
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\obj\Debug\PerformanceTest.Form1.resources
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\obj\Debug\PerformanceTest.Properties.Resources.resources
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\obj\Debug\PerformanceTest.csproj.GenerateResource.Cache
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\obj\Debug\PerformanceTest.exe
+D:\Projects\RudTask14\PerformanceTest\PerformanceTest\obj\Debug\PerformanceTest.pdb

@@ -1,0 +1,4 @@
+D:\Projects\RudTask14\IBuffer\IBuffer\bin\Release\IBuffer.dll
+D:\Projects\RudTask14\IBuffer\IBuffer\bin\Release\IBuffer.pdb
+D:\Projects\RudTask14\IBuffer\IBuffer\obj\Release\IBuffer.dll
+D:\Projects\RudTask14\IBuffer\IBuffer\obj\Release\IBuffer.pdb

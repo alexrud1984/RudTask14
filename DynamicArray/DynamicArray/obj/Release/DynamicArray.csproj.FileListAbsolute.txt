@@ -1,0 +1,6 @@
+D:\Projects\RudTask14\DynamicArray\DynamicArray\bin\Release\DynamicArray.dll
+D:\Projects\RudTask14\DynamicArray\DynamicArray\bin\Release\DynamicArray.pdb
+D:\Projects\RudTask14\DynamicArray\DynamicArray\bin\Release\IBuffer.dll
+D:\Projects\RudTask14\DynamicArray\DynamicArray\bin\Release\IBuffer.pdb
+D:\Projects\RudTask14\DynamicArray\DynamicArray\obj\Release\DynamicArray.dll
+D:\Projects\RudTask14\DynamicArray\DynamicArray\obj\Release\DynamicArray.pdb

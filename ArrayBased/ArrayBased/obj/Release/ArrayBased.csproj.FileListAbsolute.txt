@@ -1,0 +1,6 @@
+D:\Projects\RudTask14\ArrayBased\ArrayBased\bin\Release\ArrayBased.dll
+D:\Projects\RudTask14\ArrayBased\ArrayBased\bin\Release\ArrayBased.pdb
+D:\Projects\RudTask14\ArrayBased\ArrayBased\bin\Release\IBuffer.dll
+D:\Projects\RudTask14\ArrayBased\ArrayBased\bin\Release\IBuffer.pdb
+D:\Projects\RudTask14\ArrayBased\ArrayBased\obj\Release\ArrayBased.dll
+D:\Projects\RudTask14\ArrayBased\ArrayBased\obj\Release\ArrayBased.pdb

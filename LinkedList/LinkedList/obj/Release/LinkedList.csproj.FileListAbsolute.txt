@@ -1,0 +1,6 @@
+D:\Projects\RudTask14\LinkedList\LinkedList\bin\Release\LinkedList.dll
+D:\Projects\RudTask14\LinkedList\LinkedList\bin\Release\LinkedList.pdb
+D:\Projects\RudTask14\LinkedList\LinkedList\bin\Release\IBuffer.dll
+D:\Projects\RudTask14\LinkedList\LinkedList\bin\Release\IBuffer.pdb
+D:\Projects\RudTask14\LinkedList\LinkedList\obj\Release\LinkedList.dll
+D:\Projects\RudTask14\LinkedList\LinkedList\obj\Release\LinkedList.pdb

@@ -1,0 +1,7 @@
+D:\Projects\RudTask14\DynamicArray\DynamicArray\bin\Debug\DynamicArray.dll
+D:\Projects\RudTask14\DynamicArray\DynamicArray\bin\Debug\DynamicArray.pdb
+D:\Projects\RudTask14\DynamicArray\DynamicArray\bin\Debug\IBuffer.dll
+D:\Projects\RudTask14\DynamicArray\DynamicArray\bin\Debug\IBuffer.pdb
+D:\Projects\RudTask14\DynamicArray\DynamicArray\obj\Debug\DynamicArray.csprojResolveAssemblyReference.cache
+D:\Projects\RudTask14\DynamicArray\DynamicArray\obj\Debug\DynamicArray.dll
+D:\Projects\RudTask14\DynamicArray\DynamicArray\obj\Debug\DynamicArray.pdb

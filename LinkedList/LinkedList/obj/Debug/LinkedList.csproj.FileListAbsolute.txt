@@ -1,0 +1,7 @@
+D:\Projects\RudTask14\LinkedList\LinkedList\bin\Debug\LinkedList.dll
+D:\Projects\RudTask14\LinkedList\LinkedList\bin\Debug\LinkedList.pdb
+D:\Projects\RudTask14\LinkedList\LinkedList\bin\Debug\IBuffer.dll
+D:\Projects\RudTask14\LinkedList\LinkedList\bin\Debug\IBuffer.pdb
+D:\Projects\RudTask14\LinkedList\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
+D:\Projects\RudTask14\LinkedList\LinkedList\obj\Debug\LinkedList.dll
+D:\Projects\RudTask14\LinkedList\LinkedList\obj\Debug\LinkedList.pdb
