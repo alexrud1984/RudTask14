@@ -153,7 +153,7 @@
             this.myQueueTest.TabIndex = 5;
             this.myQueueTest.Text = "Test";
             this.myQueueTest.UseVisualStyleBackColor = true;
-            this.myQueueTest.Click += new System.EventHandler(this.MyStakTest_Click);
+            this.myQueueTest.Click += new System.EventHandler(this.MyQueueTest_Click);
             // 
             // label1
             // 
@@ -404,7 +404,7 @@
             this.netQueueTest.TabIndex = 5;
             this.netQueueTest.Text = "Test";
             this.netQueueTest.UseVisualStyleBackColor = true;
-            this.netQueueTest.Click += new System.EventHandler(this.button1_Click);
+            this.netQueueTest.Click += new System.EventHandler(this.NetQueueTest_Click);
             // 
             // DotNet
             // 
@@ -561,7 +561,7 @@
             this.myStackTest.TabIndex = 5;
             this.myStackTest.Text = "Test";
             this.myStackTest.UseVisualStyleBackColor = true;
-            this.myStackTest.Click += new System.EventHandler(this.button2_Click);
+            this.myStackTest.Click += new System.EventHandler(this.MyStackTest_Click);
             // 
             // groupBox4
             // 
@@ -704,7 +704,7 @@
             this.netStackTest.TabIndex = 5;
             this.netStackTest.Text = "Test";
             this.netStackTest.UseVisualStyleBackColor = true;
-            this.netStackTest.Click += new System.EventHandler(this.netStackTest_Click);
+            this.netStackTest.Click += new System.EventHandler(this.NetStackTest_Click);
             // 
             // Form1
             // 

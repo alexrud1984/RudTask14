@@ -7,17 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ArrayBased;
-using IBuffer;
-using System.Diagnostics;
-using DynamicArray;
-using LinkedList;
-using System.Collections;
 
 namespace PerformanceTest
 {
     public partial class Form1 : Form
     {
+        private TestExecuter executer = new TestExecuter();
         public Form1()
         {
             InitializeComponent();
@@ -63,53 +58,17 @@ namespace PerformanceTest
 
         }
 
-        private void MyStakTest_Click(object sender, EventArgs e)
+        private void MyQueueTest_Click(object sender, EventArgs e)
         {
-            IMyQueue<int> queue = null;
-            int operAmount = (int)myQueueOperAmount.Value;
-            switch (myQueueSelect.GetItemText(myQueueSelect.SelectedItem))
+            if (executer.MyQueueTest(myQueueSelect.GetItemText(myQueueSelect.SelectedItem), (int)myQueueOperAmount.Value))
             {
-                case "Usual array":
-                    {
-                        queue = new MyQueue<int>(operAmount);
-                        break;
-                    }
-
-                case "Dynamic array":
-                    {
-                        queue = new DynamicQueue<int> (operAmount);
-                        break;
-                    }
-
-                case "Linked list":
-                    {
-                        queue = new LinkedQueue<int>(operAmount);
-                        break;
-                    }
-
-                default:
-                    {
-                        MessageBox.Show("Nothing selected");
-                        break;
-                    }
+                myQueueEnqResult.Text = executer.InsertTime.ToString();
+                myQueueDeqResult.Text = executer.ExtractTime.ToString();
             }
 
-            if (queue != null)
+            else
             {
-                Stopwatch watch = new Stopwatch();
-                watch.Start();
-                for (int i = 0; i < operAmount; i++)
-                {
-                    queue.Enqueue(i);
-                }
-                myQueueEnqResult.Text = watch.ElapsedMilliseconds.ToString();
-                watch.Restart();
-                for (int i = 0; i < operAmount; i++)
-                {
-                   queue.Dequeue();
-                }
-                watch.Stop();
-                myQueueDeqResult.Text = watch.ElapsedMilliseconds.ToString();
+                MessageBox.Show("Nothing selected");
             }
 
         }
@@ -124,24 +83,19 @@ namespace PerformanceTest
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void NetQueueTest_Click(object sender, EventArgs e)
         {
-            int operAmount = (int)netQamountOper.Value;
-            Queue<int> queue = new Queue<int>(operAmount);
-            Stopwatch watch = new Stopwatch();
-            watch.Start();
-            for (int i = 0; i < operAmount; i++)
+
+            if (executer.NetQueueTest((int)netQamountOper.Value) )
             {
-                queue.Enqueue(i);
+                netEnqueueResult.Text = executer.InsertTime.ToString();
+                netDequeueResult.Text = executer.ExtractTime.ToString();
             }
-            netEnqueueResult.Text = watch.ElapsedMilliseconds.ToString();
-            watch.Restart();
-            for (int i = 0; i < operAmount; i++)
+
+            else
             {
-                queue.Dequeue();
+                MessageBox.Show("Nothing selected");
             }
-            watch.Stop();
-            netDequeueResult.Text = watch.ElapsedMilliseconds.ToString();
 
         }
 
@@ -150,53 +104,18 @@ namespace PerformanceTest
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void MyStackTest_Click(object sender, EventArgs e)
         {
-            IMyStack<int> stack = null;
-            int operAmount = (int) myStakAmountOper.Value;
-            switch (myStackSelect.Text)
+
+            if (executer.MyStackTest(myStackSelect.Text, (int)myStakAmountOper.Value))
             {
-                case "Usual array":
-                    {
-                        stack = new MyStack<int>(operAmount);
-                        break;
-                    }
-
-                case "Dynamic array":
-                    {
-                        stack = new DynamicStack<int>(operAmount);
-                        break;
-                    }
-
-                case "Linked list":
-                    {
-                        stack = new LinkedStack<int>(operAmount);
-                        break;
-                    }
-
-                default:
-                    {
-                        MessageBox.Show("Nothing selected");
-                        break;
-                    }
+                myStackPushResult.Text = executer.InsertTime.ToString();
+                myStackPopResult.Text = executer.ExtractTime.ToString();
             }
 
-            if (stack != null)
+            else
             {
-                Stopwatch watch = new Stopwatch();
-                watch.Start();
-                for (int i = 0; i < operAmount; i++)
-                {
-                    stack.Push(i);
-                }
-                myStackPushResult.Text = watch.ElapsedMilliseconds.ToString();
-                watch.Restart();
-                for (int i = 0; i < operAmount; i++)
-                {
-                    stack.Pop();
-                }
-                watch.Stop();
-                myStackPopResult.Text = watch.ElapsedMilliseconds.ToString();
+                MessageBox.Show("Nothing selected");
             }
 
         }
@@ -206,24 +125,19 @@ namespace PerformanceTest
 
         }
 
-        private void netStackTest_Click(object sender, EventArgs e)
+        private void NetStackTest_Click(object sender, EventArgs e)
         {
-            int operAmount = (int)netStackAmountOper.Value;
-            Stack<int> stack = new Stack<int>(operAmount);
-            Stopwatch watch = new Stopwatch();
-            watch.Start();
-            for (int i = 0; i < operAmount; i++)
+
+            if (executer.NetStackTest((int)netStackAmountOper.Value))
             {
-                stack.Push(i);
+                netStackPushResult.Text = executer.InsertTime.ToString();
+                netStackPopResult.Text = executer.ExtractTime.ToString();
             }
-            netStackPushResult.Text = watch.ElapsedMilliseconds.ToString();
-            watch.Restart();
-            for (int i = 0; i < operAmount; i++)
+
+            else
             {
-                stack.Pop();
+                MessageBox.Show("Nothing selected");
             }
-            watch.Stop();
-            netStackPopResult.Text = watch.ElapsedMilliseconds.ToString();
 
         }
     }
